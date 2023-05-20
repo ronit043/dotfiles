@@ -17,5 +17,7 @@ compinit
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 [[ -f ~/.zsh/aliases.zsh ]] && source ~/.zsh/aliases.zsh
 [[ -f ~/.zsh/archlinux.zsh ]] && source ~/.zsh/archlinux.zsh
+[[ -f ~/.zsh/terraform.zsh ]] && source ~/.zsh/terraform.zsh
+[[ -f ~/.zsh/kubectl.zsh ]] && source ~/.zsh/kubectl.zsh
 
 eval "$(starship init zsh)"
